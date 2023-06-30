@@ -1,6 +1,9 @@
 # MQTT-Controlled Web View using pywebview and paho-mqtt
 
-This script opens a web view that can be controlled by receiving MQTT messages. The messages contain the URL that has to be loaded in the web view. It uses the `paho-mqtt` library for MQTT communication and the `pywebview` library for creating the web view.
+This script opens a web view that can be controlled by receiving MQTT messages. 
+The webview is displayed in fullscreen without window decorators, like a kioskbrowser.
+The messages contain the URL that has to be loaded in the web view. 
+It uses the `paho-mqtt` library for MQTT communication and the `pywebview` library for creating the web view.
 
 ## Installation
 
